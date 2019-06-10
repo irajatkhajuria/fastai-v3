@@ -9,9 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/uc?export=download&id=1LRdBp4CJyjXMA2g_t_U3OzL17GyVd1L'
-
-classes = ['black', 'grizzly', 'teddys']
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Zkk7baTC2hnwpY0Cjs_CUE3VVTRBwsSv'
+classes = ['Pneumonia','Normal']
 path = Path(__file__).parent
 
 app = Starlette()
