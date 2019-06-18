@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/a3p8rz8m8ief9dy/model-rajat.pkl?dl=1 '
+export_file_url = 'https://www.dropbox.com/s/uhks321m0m91h75/pneumonia_new.pkl?dl=1'
 classes = ['Pneumonia','Normal']
 path = Path(__file__).parent
 
